@@ -3,8 +3,6 @@ package com.izza.intentizza
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-android.appcompat.app.AppCompatActivity
-import android.os.Bundle
 import android.view.View
 import android.widget.Button
 
@@ -22,8 +20,8 @@ class MoveActivity : AppCompatActivity(), View.OnClickListener {
         if (v !=null)
             when (v. id) {
                 R.id.btn_backto_main_page -> run {
-                    val intent = Intent(this, MainActivity::class.java)}
+                    val intent = Intent(this, MainActivity::class.java)
+                startActivity(intent)}
             }
         }
     }
-}

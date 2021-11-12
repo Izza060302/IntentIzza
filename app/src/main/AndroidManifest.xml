@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.IntentIzza">
         <activity
+            android:name=".MoveForResultActivity"
+            android:exported="true" />
+        <activity
             android:name=".DimensActivity"
             android:exported="true" />
         <activity

@@ -1,4 +1,4 @@
-package com.izza.intentizza
+package com.intentizza
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
+import com.izza.intentizza.MoveActivity
+import com.izza.intentizza.R
 
 class MoveWithDataAktivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var tvDataReceived:TextView
